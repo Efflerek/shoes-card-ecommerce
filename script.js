@@ -7,6 +7,6 @@ color2.addEventListener("click", () => {
 });
 
 color1.addEventListener("click", () => {
-  container.classList.add("change");
+  container.classList.remove("change");
 });
 
