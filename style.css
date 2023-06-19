@@ -49,11 +49,6 @@ html {
   background: #d34246;  /*Add to javascript effect*/
 }
 
-.logo {
-  width: 8rem;
-  margin-bottom: 1rem;
-}
-
 .card-top-text {
   color: #ffff;
   position: absolute;
@@ -68,16 +63,28 @@ html {
   margin-bottom: 1rem;
 }
 
+.card-top-text p {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+  width: 49%;
+}
+
+.logo {
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
 .shoe-1 {
   width: 30rem;
   position: absolute;
   top: -2.5rem;
-  right: -10rem;
+  right: -13rem;
   transition: transform 1s;
 }
 
 .container.change .shoe-1 {
-  transform: translateX(-50rem) rotateZ(45deg);
+  transform: translateX(-45rem) rotateZ(45deg);
 }
 
 .shoe-2 {
@@ -89,7 +96,7 @@ html {
 } 
 
 .container.change .shoe-2 {
-  transform: translateX(-40rem) rotate(-45deg);
+  transform: translateX(-36rem) rotate(-45deg);
 }
 
 .card-bottom {
