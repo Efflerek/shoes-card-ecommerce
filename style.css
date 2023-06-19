@@ -39,7 +39,7 @@ html {
 .card-top {
   width: 100%;
   height: 50%;
-  background: #f1ae04;
+  background: #1890ff;
   padding: 3rem;
   border-radius: 2.5rem 2.5rem 0 0;
   transition: background 0.5s;  /*Add to javascript effect*/
@@ -134,12 +134,12 @@ html {
 }
 
 .sizes span:nth-child(3) {
-  width:  2rem;
+  width: 2rem;
   height: 2rem;
   background: #25d393;
   border-radius: 70%;
-  border-width: 1rem;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .badge {
