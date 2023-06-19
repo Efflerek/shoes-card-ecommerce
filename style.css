@@ -137,7 +137,8 @@ html {
   width:  2rem;
   height: 2rem;
   background: #25d393;
-  border-radius: 50%;
+  border-radius: 70%;
+  border-width: 1rem;
   place-items: center;
 }
 
