@@ -41,6 +41,11 @@ html {
   background: #f1ae04;
   padding: 3rem;
   border-radius: 2.5rem 2.5rem 0 0;
+  transition: background 0.5s;  /*Add to javascript effect*/
+  }
+
+  .container.change .card-top {
+    background: #d34246;  /*Add to javascript effect*/
   }
 
 .logo {
@@ -68,6 +73,11 @@ html {
   top: -2.5rem;
   right: -10rem;
 }
+
+.shoe-2 {
+  width: 33rem;
+  position: inherit;
+}  /*Add to javascript effect*/
 
 .card-bottom {
   width: 100%;
@@ -176,10 +186,18 @@ html {
   right: -1rem;
   bottom: 3rem;
   box-shadow: 0 1rem 2rem rgba(28, 71, 122, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s; /* Add to javascript effect */
 }
 
 .price span:last-child{
   font-weight: bold;
+}
+
+.container.change .price {
+  background: #c02244;  /* Add to javascript effect */
 }
 
 
